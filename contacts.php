@@ -7,11 +7,9 @@
 	$subject = 'Registration';
 
 	$body = "From: $name\n E-mail : $email\n Nationality:\n $nationality";
+	
 	if ($_POST['submit']) {
-	    /* Anything that goes in here is only performed if the form is submitted */
-	}
-	if ($_POST['submit']) {
-    if ($name != '' && $email != '') {
+    	if ($name != '' && $email != '') {
         if ($human == '4') {				 
             if (mail ($to, $subject, $body, $from)) { 
 	        echo '<p>Your message has been sent!</p>';

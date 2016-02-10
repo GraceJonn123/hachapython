@@ -8,7 +8,7 @@ if (isset($_POST["submit"])) {
 	$subject = 'Registration';
 
 	$body = "From: $name\n E-mail : $email\n Nationality:\n $nationality";
-	
+
 	if (!$_POST['name']) {
 		$errName = 'Please enter name';
 	}

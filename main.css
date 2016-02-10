@@ -39,12 +39,14 @@ label{
 body{
 	text-align: center;
 	font-size: 150%;
-	background-image: url(stylesheet/images.jpg);
+	background-image: url(stylesheet/The-Summit.jpg);
 	background-position: fixed;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100% 100%;
+	background-attachment: fixed;
 	color: white;
 }
+
 .every{
 	padding: 20px;
 }
@@ -61,7 +63,7 @@ padding: 3%;
 font-size: 250%;
 }
 input, textarea {
-	width:439px;
+	width:350px;
 	background:#efefef;
 	border:1px solid #dedede;
 	padding:10px;
@@ -73,4 +75,8 @@ footer{
 	padding: 5% 10%;
 	font-size: 80%;
 	width: 80%
+}
+#submit{
+	width: 100;
+	padding-right: 0;
 }
